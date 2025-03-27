@@ -1,6 +1,4 @@
-const exchangeRate = 1200;
-
-const AvailableBeers = ({ beers }) => {
+const AvailableBeers = ({ beers, exchangeRate }) => {
   const availableBeers = beers.filter(({ available }) => available);
 
   return (

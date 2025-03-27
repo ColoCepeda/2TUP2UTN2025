@@ -1,6 +1,4 @@
-const exchangeRate = 900;
-
-const BeersList = ({ beers }) => {
+const BeersList = ({ beers, exchangeRate }) => {
   return (
     <div>
       <h2>Lista de Cervezas</h2>
